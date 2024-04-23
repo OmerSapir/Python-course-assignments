@@ -1,0 +1,20 @@
+import random
+
+
+number = random.randrange(1,20)
+tries = 0
+while True:
+    guess = int(input("What is your guess?"))
+    if guess>number:
+        tries += 1
+        print("To High")
+        print("Try again")
+    elif guess<number:
+        tries += 1
+        print("To Low")
+        print("Try again")
+    else:
+        tries += 1
+        print("You're correct!")
+        print(f"Number of Tries: {tries}")
+        break
