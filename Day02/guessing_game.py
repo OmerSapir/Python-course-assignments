@@ -9,7 +9,7 @@ while True:
     if guess > number:
         print("To High")
         print("Try again")
-    elif guess<number:
+    elif guess < number:
         print("To Low")
         print("Try again")
     else:
