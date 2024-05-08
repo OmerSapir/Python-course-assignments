@@ -58,3 +58,6 @@ def main():
                 break
             else:
                 number = random.randrange(1,20)
+
+
+main()
