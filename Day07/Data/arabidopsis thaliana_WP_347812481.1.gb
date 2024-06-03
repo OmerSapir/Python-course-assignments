@@ -1,0 +1,60 @@
+LOCUS       WP_347812481             659 aa            linear   BCT 30-MAY-2024
+DEFINITION  sialate O-acetylesterase [Sphingomonas sp. PP-CC-3A-396].
+ACCESSION   WP_347812481
+VERSION     WP_347812481.1
+KEYWORDS    RefSeq.
+SOURCE      Sphingomonas sp. PP-CC-3A-396
+  ORGANISM  Sphingomonas sp. PP-CC-3A-396
+            Bacteria; Pseudomonadota; Alphaproteobacteria; Sphingomonadales;
+            Sphingomonadaceae; Sphingomonas.
+REFERENCE   1  (residues 1 to 659)
+  AUTHORS   Surolia,I., Pirnie,S.P., Chellappa,V., Taylor,K.N., Cariappa,A.,
+            Moya,J., Liu,H., Bell,D.W., Driscoll,D.R., Diederichs,S.,
+            Haider,K., Netravali,I., Le,S., Elia,R., Dow,E., Lee,A.,
+            Freudenberg,J., De Jager,P.L., Chretien,Y., Varki,A.,
+            MacDonald,M.E., Gillis,T., Behrens,T.W., Bloch,D., Collier,D.,
+            Korzenik,J., Podolsky,D.K., Hafler,D., Murali,M., Sands,B.,
+            Stone,J.H., Gregersen,P.K. and Pillai,S.
+  TITLE     Functionally defective germline variants of sialic acid
+            acetylesterase in autoimmunity
+  JOURNAL   Nature 466 (7303), 243-247 (2010)
+   PUBMED   20555325
+REFERENCE   2  (residues 1 to 659)
+  AUTHORS   Bitto,E., Bingman,C.A., McCoy,J.G., Allard,S.T., Wesenberg,G.E. and
+            Phillips,G.N. Jr.
+  TITLE     The structure at 1.6 Angstroms resolution of the protein product of
+            the At4g34215 gene from Arabidopsis thaliana
+  JOURNAL   Acta Crystallogr D Biol Crystallogr 61 (Pt 12), 1655-1661 (2005)
+   PUBMED   16301800
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            
+            ##Evidence-For-Name-Assignment-START##
+            Evidence Category  :: HMM
+            Evidence Accession :: NF015585.4
+            Evidence Source    :: EMBL-EBI
+            Source Identifier  :: PF03629.22
+            ##Evidence-For-Name-Assignment-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..659
+                     /organism="Sphingomonas sp. PP-CC-3A-396"
+                     /db_xref="taxon:2135655"
+     Protein         1..659
+                     /product="sialate O-acetylesterase"
+                     /calculated_mol_wt=68950
+ORIGIN      
+        1 mkirpsnalp aallgiavpl gatqigaaam aedtqiapsl dgligdhavi qrdqpivlrg
+       61 tskpdtsvta rlagrtstvt adrdgrfelr lkslpaggpy dlkiagstgv ttvrdlligd
+      121 vflcsgqsnm elpvnaaqdl ipdahppldd klrlvtiaka ssetpltrfa arpkwtaaga
+      181 dtvpgfsaac fymvqalrrs egvpigaihs swggsrisaw mgdaalrsag mareadllal
+      241 hakdpgaaer gaskiwedww rrgagdapgr epwqpdaald wkpgpkignf eqwgmpalad
+      301 yngmvwyqrv vtltaaqarg aatlaigvvd dadrtwvngi gvggnsnaar arvytlpaga
+      361 lkpgrnvitv ndddvyaygg mtgpadtmml tladgshvpi gdgwryaiak rvpgnaprsp
+      421 wddingagtl yngmiaplgp talagiawyq gesdtglpgy etrlaamtrg wrqqfgkpti
+      481 plaiaqlany gtppiapges gwadvreaqr lmaardghag vavaidlgdp ldihpgekha
+      541 vgqrlarvlr playagrepv gpsiatanrt adggvtlrft gvtgslhaqa srtaigfelc
+      601 gpaagscrya dglvqgdrvt lasdgkpvvr vryawadspv vnladdaqlp vgpfeipls
+//
+

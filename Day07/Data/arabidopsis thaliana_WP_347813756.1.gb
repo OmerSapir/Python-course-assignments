@@ -1,0 +1,55 @@
+LOCUS       WP_347813756             707 aa            linear   BCT 30-MAY-2024
+DEFINITION  DEAD/DEAH box helicase [Allobranchiibius sp. GilTou38].
+ACCESSION   WP_347813756
+VERSION     WP_347813756.1
+KEYWORDS    RefSeq.
+SOURCE      Allobranchiibius sp. GilTou38
+  ORGANISM  Allobranchiibius sp. GilTou38
+            Bacteria; Actinomycetota; Actinomycetes; Micrococcales;
+            Dermacoccaceae; Allobranchiibius.
+REFERENCE   1  (residues 1 to 707)
+  AUTHORS   de la Cruz,J., Kressler,D. and Linder,P.
+  TITLE     Unwinding RNA in Saccharomyces cerevisiae: DEAD-box proteins and
+            related families
+  JOURNAL   Trends Biochem Sci 24 (5), 192-198 (1999)
+   PUBMED   10322435
+REFERENCE   2  (residues 1 to 707)
+  AUTHORS   Aubourg,S., Kreis,M. and Lecharny,A.
+  TITLE     The DEAD box RNA helicase family in Arabidopsis thaliana
+  JOURNAL   Nucleic Acids Res 27 (2), 628-636 (1999)
+   PUBMED   9862990
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            
+            ##Evidence-For-Name-Assignment-START##
+            Evidence Category  :: HMM
+            Evidence Accession :: NF012492.4
+            Evidence Source    :: EMBL-EBI
+            Source Identifier  :: PF00270.33
+            ##Evidence-For-Name-Assignment-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..707
+                     /organism="Allobranchiibius sp. GilTou38"
+                     /db_xref="taxon:2815210"
+     Protein         1..707
+                     /product="DEAD/DEAH box helicase"
+                     /GO_function="GO:0005524 - ATP binding [Evidence IEA];
+                     GO:0003676 - nucleic acid binding [Evidence IEA]"
+                     /calculated_mol_wt=74664
+ORIGIN      
+        1 mtqtptatta tpagtpdidq vaarvladla gpgaqlrdgq gealhaltrp garvlvvqat
+       61 gwgksavywi atawsrqagr gptlvvspll slmrdqvaaa graglraati nssnidswss
+      121 ieadlasgdl dvilvsperl anpgfgarvm qtlagrlglv videahsvsd wghdfrpdyr
+      181 rvsdvlqkvh pdlpvlatta tansrvvedl arqfgtdttv lrgplarssl elavlptmgp
+      241 leryawvvdh lptlpgsgii yaltvadaer ltqalrtrya ddpalrvaay tggleagere
+      301 rledalrage vkalvatsal gmgydkpdlg fvvhvgapps pvsyyqqvgr agraidhapv
+      361 allpsagdeg vwdyfatati preddvrrll aslgdanapq svpaleaetg lrrgkielll
+      421 kklavdevvt ratdgwsvtg apwtydaahy egvlagrrre adimrayiag erclmallqe
+      481 slddpaaqpc grcsvctghl pdgwsdhadp qtvrdlaavl radqqvlepr kmwpggafga
+      541 kgrippqlaa apgrvlvhad aaewselrag plrhdaaapp elqeaavrvl agwkddwpar
+      601 pdlvvscave ghpeltssla ehlatvgrmt ytawsvgtpd vvdlasadea aawrtafags
+      661 dlpsvggqtv llvldasrsg wsvtvaaaml rdagasavlp llihrtv
+//
+

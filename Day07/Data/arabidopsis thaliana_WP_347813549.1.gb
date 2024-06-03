@@ -1,0 +1,78 @@
+LOCUS       WP_347813549             294 aa            linear   BCT 30-MAY-2024
+DEFINITION  trehalose-phosphatase [Dermacoccus sp. NHGro5].
+ACCESSION   WP_347813549
+VERSION     WP_347813549.1
+KEYWORDS    RefSeq.
+SOURCE      Dermacoccus sp. NHGro5
+  ORGANISM  Dermacoccus sp. NHGro5
+            Bacteria; Actinomycetota; Actinomycetes; Micrococcales;
+            Dermacoccaceae; Dermacoccus.
+REFERENCE   1  (residues 1 to 294)
+  AUTHORS   Edavana,V.K., Pastuszak,I., Carroll,J.D., Thampi,P., Abraham,E.C.
+            and Elbein,A.D.
+  TITLE     Cloning and expression of the trehalose-phosphate phosphatase of
+            Mycobacterium tuberculosis: comparison to the enzyme from
+            Mycobacterium smegmatis
+  JOURNAL   Arch Biochem Biophys 426 (2), 250-257 (2004)
+   PUBMED   15158675
+REFERENCE   2  (residues 1 to 294)
+  AUTHORS   Eastmond,P.J., van Dijken,A.J., Spielman,M., Kerr,A., Tissier,A.F.,
+            Dickinson,H.G., Jones,J.D., Smeekens,S.C. and Graham,I.A.
+  TITLE     Trehalose-6-phosphate synthase 1, which catalyses the first step in
+            trehalose synthesis, is essential for Arabidopsis embryo maturation
+  JOURNAL   Plant J 29 (2), 225-235 (2002)
+   PUBMED   11851922
+REFERENCE   3  (residues 1 to 294)
+  AUTHORS   Leyman,B., Van Dijck,P. and Thevelein,J.M.
+  TITLE     An unexpected plethora of trehalose biosynthesis genes in
+            Arabidopsis thaliana
+  JOURNAL   Trends Plant Sci 6 (11), 510-513 (2001)
+   PUBMED   11701378
+REFERENCE   4  (residues 1 to 294)
+  AUTHORS   Kaasen,I., McDougall,J. and Strom,A.R.
+  TITLE     Analysis of the otsBA operon for osmoregulatory trehalose synthesis
+            in Escherichia coli and homology of the OtsA and OtsB proteins to
+            the yeast trehalose-6-phosphate synthase/phosphatase complex
+  JOURNAL   Gene 145 (1), 9-15 (1994)
+   PUBMED   8045430
+REFERENCE   5  (residues 1 to 294)
+  AUTHORS   De Virgilio,C., Burckert,N., Bell,W., Jeno,P., Boller,T. and
+            Wiemken,A.
+  TITLE     Disruption of TPS2, the gene encoding the 100-kDa subunit of the
+            trehalose-6-phosphate synthase/phosphatase complex in Saccharomyces
+            cerevisiae, causes accumulation of trehalose-6-phosphate and loss
+            of trehalose-6-phosphate phosphatase activity
+  JOURNAL   Eur J Biochem 212 (2), 315-323 (1993)
+   PUBMED   8444170
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            
+            ##Evidence-For-Name-Assignment-START##
+            Evidence Category  :: HMM
+            Evidence Accession :: TIGR00685.1
+            Evidence Source    :: JCVI
+            ##Evidence-For-Name-Assignment-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..294
+                     /organism="Dermacoccus sp. NHGro5"
+                     /db_xref="taxon:2815213"
+     gene            1..294
+                     /gene="otsB"
+     Protein         1..294
+                     /product="trehalose-phosphatase"
+                     /EC_number="3.1.3.12"
+                     /GO_function="GO:0004805 - trehalose-phosphatase activity
+                     [Evidence IEA]"
+                     /GO_process="GO:0005992 - trehalose biosynthetic process
+                     [Evidence IEA]"
+                     /calculated_mol_wt=29789
+ORIGIN      
+        1 mtatplrpps rkeldafarr gdvlvasdfd gvlapivldp asarpqpgti ealsamaalp
+       61 gvsvalasgr dlatlraltg idesspivli gshgaeistt lgsaasggsa lsdveraald
+      121 gathaletia erlpatrvey kpagvvlhtr gmdedeaera tcaalavpqd vpgvhamrgk
+      181 avvelsvldv skgaalaala aernlratfy lgddvtdetv fttlragsdi gvkvgdgdta
+      241 aahrvpgctd vpplldallg altkarrdap rddadvrdda dagkgavsap eagr
+//
+

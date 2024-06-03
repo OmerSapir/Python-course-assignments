@@ -1,0 +1,44 @@
+LOCUS       WP_347812927             153 aa            linear   BCT 30-MAY-2024
+DEFINITION  phosphoribosyltransferase family protein [Novosphingobium sp.
+            ST904].
+ACCESSION   WP_347812927
+VERSION     WP_347812927.1
+KEYWORDS    RefSeq.
+SOURCE      Novosphingobium sp. ST904
+  ORGANISM  Novosphingobium sp. ST904
+            Bacteria; Pseudomonadota; Alphaproteobacteria; Sphingomonadales;
+            Sphingomonadaceae; Novosphingobium.
+REFERENCE   1  (residues 1 to 153)
+  AUTHORS   Islam,M.R., Kim,H., Kang,S.W., Kim,J.S., Jeong,Y.M., Hwang,H.J.,
+            Lee,S.Y., Woo,J.C. and Kim,S.G.
+  TITLE     Functional characterization of a gene encoding a dual domain for
+            uridine kinase and uracil phosphoribosyltransferase in Arabidopsis
+            thaliana
+  JOURNAL   Plant Mol Biol 63 (4), 465-477 (2007)
+   PUBMED   17143579
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            
+            ##Evidence-For-Name-Assignment-START##
+            Evidence Category  :: HMM
+            Evidence Accession :: NF012383.4
+            Evidence Source    :: EMBL-EBI
+            Source Identifier  :: PF00156.31
+            ##Evidence-For-Name-Assignment-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..153
+                     /organism="Novosphingobium sp. ST904"
+                     /db_xref="taxon:1684385"
+     Protein         1..153
+                     /product="phosphoribosyltransferase family protein"
+                     /GO_process="GO:0009116 - nucleoside metabolic process
+                     [Evidence IEA]"
+                     /calculated_mol_wt=16557
+ORIGIN      
+        1 msrlmsaklp fveedwlvvp vplhrwriwr rgynqaaela reisavaggv lvvdllerrk
+       61 atpslgglgk karrralsga igvhrkrkdr lkgakvllvd dvltsgatsd acvsalkrgg
+      121 aakvviacfa rvldealeht rggnrevpfe egl
+//
+

@@ -1,0 +1,49 @@
+LOCUS       WP_347810736              76 aa            linear   BCT 31-MAY-2024
+DEFINITION  trehalose-phosphatase, partial [Mycolicibacterium smegmatis].
+ACCESSION   WP_347810736
+VERSION     WP_347810736.1
+KEYWORDS    RefSeq.
+SOURCE      Mycolicibacterium smegmatis (Mycobacterium smegmatis)
+  ORGANISM  Mycolicibacterium smegmatis
+            Bacteria; Actinomycetota; Actinomycetes; Mycobacteriales;
+            Mycobacteriaceae; Mycolicibacterium.
+REFERENCE   1  (residues 1 to 76)
+  AUTHORS   Vogel,G., Aeschbacher,R.A., Muller,J., Boller,T. and Wiemken,A.
+  TITLE     Trehalose-6-phosphate phosphatases from Arabidopsis thaliana:
+            identification by functional complementation of the yeast tps2
+            mutant
+  JOURNAL   Plant J 13 (5), 673-683 (1998)
+   PUBMED   9681009
+REFERENCE   2  (residues 1 to 76)
+  AUTHORS   Kaasen,I., McDougall,J. and Strom,A.R.
+  TITLE     Analysis of the otsBA operon for osmoregulatory trehalose synthesis
+            in Escherichia coli and homology of the OtsA and OtsB proteins to
+            the yeast trehalose-6-phosphate synthase/phosphatase complex
+  JOURNAL   Gene 145 (1), 9-15 (1994)
+   PUBMED   8045430
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            
+            ##Evidence-For-Name-Assignment-START##
+            Evidence Category  :: HMM
+            Evidence Accession :: NF014418.4
+            Evidence Source    :: EMBL-EBI
+            Source Identifier  :: PF02358.20
+            ##Evidence-For-Name-Assignment-END##
+            COMPLETENESS: incomplete on the carboxy end.
+FEATURES             Location/Qualifiers
+     source          1..76
+                     /organism="Mycolicibacterium smegmatis"
+                     /db_xref="taxon:1772"
+     Protein         1..>76
+                     /product="trehalose-phosphatase"
+                     /GO_function="GO:0003824 - catalytic activity [Evidence
+                     IEA]"
+                     /GO_process="GO:0005992 - trehalose biosynthetic process
+                     [Evidence IEA]"
+ORIGIN      
+        1 msknvspqss anaaplpsld lgrtaflldf dgtlvdiapq peavhvsapl retlaalhaa
+       61 sggalaiisg rtvhdv
+//
+
