@@ -59,7 +59,7 @@ def analyze_dna(path, longest_duplication, longest_ORF):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="'Max length' DNA sequences analysis")
-    parser.add_argument("--input", required=True, help="GeneBank file path")
+    parser.add_argument("--input", required=True, help="GenBank file path")
     parser.add_argument("--Duplicated", action="store_true", help="Perform the duplicated sequence analysis.")
     parser.add_argument("--ORF", action="store_true", help="Perform the ORF analysis.")
 
