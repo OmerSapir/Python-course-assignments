@@ -1,0 +1,316 @@
+LOCUS       NM_204289               2735 bp    mRNA    linear   VRT 12-JUN-2024
+DEFINITION  Gallus gallus heat shock protein 90 beta family member 1 (HSP90B1),
+            mRNA.
+ACCESSION   NM_204289
+VERSION     NM_204289.2
+KEYWORDS    RefSeq.
+SOURCE      Gallus gallus (chicken)
+  ORGANISM  Gallus gallus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+            Coelurosauria; Aves; Neognathae; Galloanserae; Galliformes;
+            Phasianidae; Phasianinae; Gallus.
+REFERENCE   1  (bases 1 to 2735)
+  AUTHORS   Tang,H., Finn,R.D. and Thomas,P.D.
+  TITLE     TreeGrafter: phylogenetic tree-based annotation of proteins with
+            Gene Ontology terms and other annotations
+  JOURNAL   Bioinformatics 35 (3), 518-520 (2019)
+   PUBMED   30032202
+REFERENCE   2  (bases 1 to 2735)
+  AUTHORS   Xu,J., Xue,C., Xue,D., Zhao,J., Gai,J., Guo,N. and Xing,H.
+  TITLE     Overexpression of GmHsp90s, a heat shock protein 90 (Hsp90) gene
+            family cloning from soybean, decrease damage of abiotic stresses in
+            Arabidopsis thaliana
+  JOURNAL   PLoS One 8 (7), e69810 (2013)
+   PUBMED   23936107
+  REMARK    Publication Status: Online-Only
+REFERENCE   3  (bases 1 to 2735)
+  AUTHORS   Burge,S., Kelly,E., Lonsdale,D., Mutowo-Muellenet,P., McAnulla,C.,
+            Mitchell,A., Sangrador-Vegas,A., Yong,S.Y., Mulder,N. and Hunter,S.
+  TITLE     Manual GO annotation of predictive protein signatures: the InterPro
+            approach to GO curation
+  JOURNAL   Database (Oxford) 2012, bar068 (2012)
+   PUBMED   22301074
+  REMARK    Publication Status: Online-Only
+REFERENCE   4  (bases 1 to 2735)
+  AUTHORS   Kim,D.W., Lee,H.N., Song,J.E., Jung,K.J., Yang,W.M., Kwon,K.,
+            Jeon,G.S., Lee,Y.H., Chung,C.K. and Cho,S.S.
+  TITLE     Expression of transferrin binding protein in the capillaries of the
+            brain in the developing chick embryo
+  JOURNAL   Neurochem Res 33 (11), 2288-2293 (2008)
+   PUBMED   18459044
+REFERENCE   5  (bases 1 to 2735)
+  AUTHORS   Hayes,G.R., Himpler,B.S., Weiner,K.X. and Lucas,J.J.
+  TITLE     A chicken transferrin binding protein is heat shock protein 108
+  JOURNAL   Biochem Biophys Res Commun 200 (1), 65-70 (1994)
+   PUBMED   8166742
+REFERENCE   6  (bases 1 to 2735)
+  AUTHORS   Kleinsek,D.A., Beattie,W.G., Tsai,M.J. and O'Malley,B.W.
+  TITLE     Molecular cloning of a steroid-regulated 108K heat shock protein
+            gene from hen oviduct
+  JOURNAL   Nucleic Acids Res 14 (24), 10053-10069 (1986)
+   PUBMED   3027654
+REFERENCE   7  (bases 1 to 2735)
+  AUTHORS   Kulomaa,M.S., Weigel,N.L., Kleinsek,D.A., Beattie,W.G.,
+            Conneely,O.M., March,C., Zarucki-Schulz,T., Schrader,W.T. and
+            O'Malley,B.W.
+  TITLE     Amino acid sequence of a chicken heat shock protein derived from
+            the complementary DNA nucleotide sequence
+  JOURNAL   Biochemistry 25 (20), 6244-6251 (1986)
+   PUBMED   3024703
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from
+            JAENSK010000012.1.
+            
+            On Sep 23, 2021 this sequence version replaced NM_204289.1.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: M14772.1, AF387865.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMEA103992543 [ECO:0000348]
+            ##Evidence-Data-END##
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-155               JAENSK010000012.1  45146232-45146386   c
+            156-255             JAENSK010000012.1  45145793-45145892   c
+            256-397             JAENSK010000012.1  45144975-45145116   c
+            398-514             JAENSK010000012.1  45144782-45144898   c
+            515-846             JAENSK010000012.1  45144166-45144497   c
+            847-958             JAENSK010000012.1  45143274-45143385   c
+            959-1078            JAENSK010000012.1  45142468-45142587   c
+            1079-1195           JAENSK010000012.1  45141857-45141973   c
+            1196-1333           JAENSK010000012.1  45141245-45141382   c
+            1334-1411           JAENSK010000012.1  45141085-45141162   c
+            1412-1477           JAENSK010000012.1  45140939-45141004   c
+            1478-1747           JAENSK010000012.1  45140398-45140667   c
+            1748-1993           JAENSK010000012.1  45139937-45140182   c
+            1994-2130           JAENSK010000012.1  45139534-45139670   c
+            2131-2209           JAENSK010000012.1  45139095-45139173   c
+            2210-2365           JAENSK010000012.1  45138839-45138994   c
+            2366-2464           JAENSK010000012.1  45138212-45138310   c
+            2465-2735           JAENSK010000012.1  45136537-45136807   c
+FEATURES             Location/Qualifiers
+     source          1..2735
+                     /organism="Gallus gallus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9031"
+                     /chromosome="1"
+                     /map="1"
+     gene            1..2735
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /note="heat shock protein 90 beta family member 1"
+                     /db_xref="CGNC:49067"
+                     /db_xref="GeneID:374163"
+     exon            1..155
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /inference="alignment:Splign:2.1.0"
+     CDS             107..2494
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /note="endoplasmin; heat shock protein 108; HSP 108; heat
+                     shock 108 kDa protein; transferrin-binding protein; heat
+                     shock protein 90 kDa beta member 1; 108K HSP; 108K heat
+                     shock protein"
+                     /codon_start=1
+                     /product="endoplasmin precursor"
+                     /protein_id="NP_989620.2"
+                     /db_xref="CGNC:49067"
+                     /db_xref="GeneID:374163"
+                     /translation="MKSAWALALACTLLLAASVTAEEVDVDATVEEDLGKSREGSRTD
+                     DEVVQREEEAIQLDGLNASQIKEIREKSEKFAFQAEVNRMMKLIINSLYKNKEIFLRE
+                     LISNASDALDKIRLISLTDENALAGNEELTVKIKCDKEKNMLHVTDTGIGMTKEELIK
+                     NLGTIAKSGTSEFLNKMTEMQDDSQSTSELIGQFGVGFYSAFLVADRVIVTSKHNNDT
+                     QHIWESDSNEFSVIDDPRGNTLGRGTTITLVLKEEASDYLELDTVKNLVKKYSQFINF
+                     PIYVWSSKTETVEEPVEEEEAKEEKEETDDDEAAVEEEEEEKKPKTKKVEKTVWDWEL
+                     MNDIKPIWQRPSKEVEEDEYKAFYKTFSKEHDDPMAYIHFTAEGEVTFKSILFVPNSA
+                     PRGLFDEYGSKKSDFIKLYVRRVFITDDFHDMMPKYLNFVKGVVDSDDLPLNVSRETL
+                     QQHKLLKVIRKKLVRKTLDMIKKIAEEKYNDTFWKEFGTNVKLGVIEDHSNRTRLAKL
+                     LRFQSSHHESNLTSLDQYVERMKEKQDKIYFMAGASRKEAESSPFVERLLKKGYEVIY
+                     LTEPVDEYCIQALPEFDGKRFQNVAKEGVKFEESEKSKESREALEKEFEPLLNWMKDK
+                     ALKDKIEKAVLSQRLTQSPCALVASQYGWSGNMERIMKAQAYQTGKDISTNYYASQKK
+                     TFEINPRHPLIKDMLRRVKENEDDKTVSDLAVVLFETATLRSGYMLPDTKEYGDRIER
+                     MLRLSLNIDLDAKVEEEPEEPEDAAEEAEQDEEEVDADAEDSETQKESTDVKDEL"
+     sig_peptide     107..169
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /inference="COORDINATES: ab initio prediction:SignalP:6.0"
+     mat_peptide     170..2491
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /product="Endoplasmin. /id=PRO_0000013601"
+                     /note="propagated from UniProtKB/Swiss-Prot (P08110.1)"
+     misc_feature    287..289
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255; propagated from
+                     UniProtKB/Swiss-Prot (P08110.1); glycosylation site"
+     misc_feature    422..424
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255; propagated from
+                     UniProtKB/Swiss-Prot (P08110.1); glycosylation site"
+     misc_feature    752..754
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000269|PubMed:8166742; propagated from
+                     UniProtKB/Swiss-Prot (P08110.1); glycosylation site"
+     misc_feature    971..1072
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /note="propagated from UniProtKB/Swiss-Prot (P08110.1);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    1436..1438
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255; propagated from
+                     UniProtKB/Swiss-Prot (P08110.1); glycosylation site"
+     misc_feature    1445..1447
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /note="Important for ATP hydrolysis.
+                     /evidence=ECO:0000250|UniProtKB:P41148; propagated from
+                     UniProtKB/Swiss-Prot (P08110.1); other site"
+     misc_feature    1544..1546
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255; propagated from
+                     UniProtKB/Swiss-Prot (P08110.1); glycosylation site"
+     misc_feature    1607..1609
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255; propagated from
+                     UniProtKB/Swiss-Prot (P08110.1); glycosylation site"
+     misc_feature    2357..2491
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /note="propagated from UniProtKB/Swiss-Prot (P08110.1);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    2480..2491
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /note="propagated from UniProtKB/Swiss-Prot (P08110.1);
+                     Region: Prevents secretion from ER"
+     exon            156..255
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /inference="alignment:Splign:2.1.0"
+     exon            256..397
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /inference="alignment:Splign:2.1.0"
+     exon            398..514
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /inference="alignment:Splign:2.1.0"
+     exon            515..846
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /inference="alignment:Splign:2.1.0"
+     exon            847..958
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /inference="alignment:Splign:2.1.0"
+     exon            959..1078
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1079..1195
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1196..1333
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1334..1411
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1412..1477
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1478..1747
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1748..1993
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1994..2130
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2131..2209
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2210..2365
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2366..2464
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2465..2735
+                     /gene="HSP90B1"
+                     /gene_synonym="hsp108"
+                     /inference="alignment:Splign:2.1.0"
+ORIGIN      
+        1 gctccagcgg gttcggcggc ggtgcgggag gcgttgcggt ggggttctac ggctcggggc
+       61 agggcgttgg gccgtttttc tctcagcatc agcaggccgc ggcatcatga agtcagcgtg
+      121 ggcgctggct ctggcatgca cgcttctcct ggccgcatcg gtgaccgctg aggaggtgga
+      181 tgtggatgcg accgtggaag aagatctggg taaaagtaga gaagggtccc gaactgatga
+      241 tgaagttgtt cagagagagg aagaagctat ccagctggat ggcctaaatg catcccagat
+      301 caaagaaatc agagaaaaat ctgagaagtt tgcctttcaa gcagaagtta acagaatgat
+      361 gaagcttatt attaactctt tatataagaa caaagagatt ttcctgagag agcttatttc
+      421 aaatgcttca gatgctttgg ataagatacg cttaatatcc ttgactgatg aaaatgctct
+      481 tgctggtaat gaggagctca ctgttaaaat caagtgtgat aaagagaaga acatgcttca
+      541 tgttacagat acgggtattg gcatgacaaa agaggagttg attaaaaacc ttggtaccat
+      601 tgcaaagtct ggtacaagtg aattcttaaa caagatgact gaaatgcagg atgatagcca
+      661 gtcgacatct gagttaattg gccagtttgg tgttggcttt tattctgctt tcttggtagc
+      721 agacagagtt attgtcacat caaagcacaa caatgatacc caacatattt gggagtcaga
+      781 ttcaaatgag ttctctgtga ttgatgatcc aagaggaaac actctgggac gtggcacaac
+      841 cataaccctt gtcttgaagg aagaagcctc tgattatctt gagttggaca ctgttaaaaa
+      901 tctagtcaag aaatattcac agttcataaa cttccccata tatgtgtgga gcagcaagac
+      961 agagactgtt gaagagccag ttgaagagga ggaagcaaag gaggagaaag aagaaacaga
+     1021 tgatgatgaa gcagcggttg aagaggagga ggaagagaag aaaccaaaaa ctaagaaggt
+     1081 tgaaaagact gtctgggatt gggagctcat gaatgacata aaaccaatct ggcagagacc
+     1141 atctaaagaa gttgaagagg atgaatataa agctttttac aaaacctttt ccaaggaaca
+     1201 cgatgatcca atggcttaca ttcattttac tgctgaaggg gaagtaactt tcaaatcaat
+     1261 cttgtttgtt cctaattctg ctccacgtgg cttgtttgat gagtatggat ccaaaaaaag
+     1321 tgatttcatt aagctgtatg ttagaagagt gttcatcact gatgacttcc atgacatgat
+     1381 gcccaaatat cttaacttcg ttaaaggtgt tgtggattct gatgatcttc ctttgaatgt
+     1441 atctcgtgaa acacttcagc agcataagtt actaaaggtg atcagaaaga agcttgttcg
+     1501 taaaaccctc gatatgatca agaaaattgc agaagaaaaa tacaatgaca cattctggaa
+     1561 agagtttggt actaatgtaa agcttggagt tattgaagat cactccaatc gcacacgact
+     1621 ggctaaactg cttcgcttcc agtcttccca tcatgaaagt aaccttacaa gccttgacca
+     1681 atatgtggaa agaatgaaag agaaacaaga caaaatttat ttcatggcag gtgccagcag
+     1741 aaaggaggct gagtcttcac catttgttga acgccttctg aaaaagggct atgaagtgat
+     1801 ctacctgact gaacctgtag atgaatactg cattcaggct ctgccagagt ttgatggcaa
+     1861 gaggtttcag aatgtagcaa aggagggagt taagtttgag gaaagtgaaa agtccaagga
+     1921 gagtcgtgaa gccttggaga aggaatttga accactcttg aactggatga aagacaaagc
+     1981 tctaaaggac aagattgaaa aggctgtgct gtctcaacgt ctaacacagt ctccatgtgc
+     2041 actcgtggct agtcagtacg gatggtctgg taacatggag agaatcatga aggctcaagc
+     2101 ataccaaact gggaaggaca tatctacaaa ttactatgct agccagaaga agacatttga
+     2161 aataaatccc agacatccac tgatcaaaga catgctgagg cgagttaagg aaaatgaaga
+     2221 tgacaaaaca gtttcagatc ttgcagtggt gttgtttgaa actgcgactt tgagatcagg
+     2281 atatatgtta ccagacacaa aggaatatgg agacagaata gaaaggatgc ttcgtttgag
+     2341 tttaaacatt gacctggatg caaaggtgga ggaggaacct gaagagcctg aagatgcagc
+     2401 tgaggaggca gagcaagatg aagaagaggt ggatgctgat gctgaagaca gtgaaacaca
+     2461 gaaggaatcc acagatgtaa aagacgaact gtaaactgca ctcacctact gtcctgcact
+     2521 gggaggtcaa gagaaggatg tgaattcaat tttggtttgt tttccactgg aaaaggttga
+     2581 gggatggtgt ggggtttaag ggcaaaggag attttttttt ttaagttgac ttttctaaaa
+     2641 aaaagaaaac attcctcacg aatgtaaatt tgtattattt aactgacttg gtgtaaaatc
+     2701 ttgtcatgta caaaataaaa tgttcccaaa cacca
+//
+

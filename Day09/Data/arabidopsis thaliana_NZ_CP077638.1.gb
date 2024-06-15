@@ -1,0 +1,78 @@
+LOCUS       NZ_CP077638          5476976 bp    DNA     circular CON 12-JUN-2024
+DEFINITION  Methylorubrum extorquens strain PA1 chromosome, complete genome.
+ACCESSION   NZ_CP077638
+VERSION     NZ_CP077638.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN19716636
+            Assembly: GCF_030255395.1
+KEYWORDS    RefSeq.
+SOURCE      Methylorubrum extorquens
+  ORGANISM  Methylorubrum extorquens
+            Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+            Methylobacteriaceae; Methylorubrum.
+REFERENCE   1  (bases 1 to 5476976)
+  AUTHORS   Lee,G.M., Scott-Nevros,Z.K., Lee,S.-M. and Kim,D.
+  TITLE     Pan-genome Analysis Reveals Comparative Genomic Features of Central
+            Metabolic Pathways in Methylorubrum extorquens
+  JOURNAL   Biotechnol Bioprocess Eng (2022)
+REFERENCE   2  (bases 1 to 5476976)
+  AUTHORS   Kim,D., Lee,S.K. and Lee,G.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-JUN-2021) Department of Chemical Engineering, UNIST,
+            50, UNIST-gil, Eonyang-eup, Ulsan 44919, South Korea
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            CP077638.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Date          :: 15-JUN-2021
+            Assembly Method        :: HGAP v. 3Version 2.3
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 169.0x
+            Sequencing Technology  :: PacBio RSII
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Name                   :: GCF_030255395.1-RS_2024_06_12
+            Annotation Date                   :: 06/12/2024 05:27:14
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 6.7
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA
+            Genes (total)                     :: 5,091
+            CDSs (total)                      :: 5,014
+            Genes (coding)                    :: 4,902
+            CDSs (with protein)               :: 4,902
+            Genes (RNA)                       :: 77
+            rRNAs                             :: 5, 5, 5 (5S, 16S, 23S)
+            complete rRNAs                    :: 5, 5, 5 (5S, 16S, 23S)
+            tRNAs                             :: 58
+            ncRNAs                            :: 4
+            Pseudo Genes (total)              :: 112
+            CDSs (without protein)            :: 112
+            Pseudo Genes (ambiguous residues) :: 0 of 112
+            Pseudo Genes (frameshifted)       :: 42 of 112
+            Pseudo Genes (incomplete)         :: 89 of 112
+            Pseudo Genes (internal stop)      :: 28 of 112
+            Pseudo Genes (multiple problems)  :: 42 of 112
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..5476976
+                     /organism="Methylorubrum extorquens"
+                     /mol_type="genomic DNA"
+                     /strain="PA1"
+                     /isolation_source="phyllosphere"
+                     /host="Arabidopsis thaliana"
+                     /db_xref="taxon:408"
+                     /country="Spain"
+                     /collection_date="2021-05"
+CONTIG      join(CP077638.1:1..5476976)
+//
+
