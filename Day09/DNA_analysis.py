@@ -1,16 +1,12 @@
 import re
 import argparse
-import random
-from Bio import Entrez
 from Bio import SeqIO
-
 
 def longest_seq(dna):
     length = 1
     result = ''
     while True:
         regex = r'([GATC]{' + str(length) + r'}).*\1'
-        #print(regex)
         m = re.search(regex, dna)
         if m:
             result = m.group(1)
@@ -18,9 +14,8 @@ def longest_seq(dna):
         else:
             break
 
-    print(result)
-    print(len(result))
-
+    print("Longest duplicated sequence:", result)
+    print("Length:", len(result))
 
 def get_longest_ORF(dna):
     start_codon = "ATG"
@@ -40,10 +35,8 @@ def get_longest_ORF(dna):
                         longest_orf = orf
                     break
     
-    print(longest_orf)
-    print(len(longest_orf))
-
-
+    print("Longest ORF sequence:", longest_orf)
+    print("Length:", len(longest_orf))
 
 def analyze_dna(path, longest_duplication, longest_ORF):
     try:
@@ -51,6 +44,7 @@ def analyze_dna(path, longest_duplication, longest_ORF):
     except Exception as e:
         print(f"Error reading GenBank file: {e}")
         return
+
     str_dna = str(dna.seq)
 
     if longest_duplication:
@@ -59,14 +53,12 @@ def analyze_dna(path, longest_duplication, longest_ORF):
     if longest_ORF:
         get_longest_ORF(str_dna)
 
-
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="'Max length' DNA sequences analysis")
-    parser.add_argument("--input", required=True, help="GeneBank file path")
+    parser.add_argument("--input", required=True, help="GenBank file path")
     parser.add_argument("--duplicated", action="store_true", help="Perform the duplicated sequence analysis.")
     parser.add_argument("--ORF", action="store_true", help="Perform the ORF analysis.")
 
     args = parser.parse_args()
     
-    analyze_dna(args.input, args.duplicate, args.ORF)
+    analyze_dna(args.input, args.duplicated, args.ORF)
