@@ -46,7 +46,11 @@ def get_longest_ORF(dna):
 
 
 def analyze_dna(path, longest_duplication, longest_ORF):
-    dna = SeqIO.read(path, "genbank")
+    try:
+        dna = SeqIO.read(path, "genbank")
+    except Exception as e:
+        print(f"Error reading GenBank file: {e}")
+        return
     str_dna = str(dna.seq)
 
     if longest_duplication:
@@ -60,9 +64,9 @@ def analyze_dna(path, longest_duplication, longest_ORF):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="'Max length' DNA sequences analysis")
     parser.add_argument("--input", required=True, help="GeneBank file path")
-    parser.add_argument("--Duplicated", action="store_true", help="Perform the duplicated sequence analysis.")
+    parser.add_argument("--duplicated", action="store_true", help="Perform the duplicated sequence analysis.")
     parser.add_argument("--ORF", action="store_true", help="Perform the ORF analysis.")
 
     args = parser.parse_args()
     
-    analyze_dna(args.input, args.duplicate, args.ORF)
+    analyze_dna(args.input, args.duplicated, args.ORF)
