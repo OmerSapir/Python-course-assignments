@@ -1,6 +1,5 @@
 # 'Max Length' DNA Sequences Analysis
 
-## Description
 This Python script is designed to analyze DNA sequences from GenBank files. It provides two main analyses:
 
 1. Duplicated Sequence Analysis: Finds and prints the longest repeated sequence within the DNA.

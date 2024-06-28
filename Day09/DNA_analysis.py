@@ -69,4 +69,4 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     
-    analyze_dna(args.input, args.duplicated, args.ORF)
+    analyze_dna(args.input, args.duplicate, args.ORF)
